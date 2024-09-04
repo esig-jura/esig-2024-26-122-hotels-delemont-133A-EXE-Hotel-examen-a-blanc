@@ -1,0 +1,119 @@
+﻿/* CSS Document */
+* {
+    box-sizing: border-box;
+}
+
+html {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #96AB9B;
+	font-size: 12px;
+	font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+	color: #254D2E;
+	padding: 0px 20px;
+	margin: 0;
+}
+
+/******************
+FORMULAIRES
+******************/
+form {
+	padding: 20px;
+}
+
+form ul {
+	padding-left: 0;
+	margin: 0;
+}
+
+form li {
+	list-style: none;
+	margin-bottom: 10px;
+}
+form li:last-child {
+	margin: 0;
+}
+
+input,
+textarea,
+select,
+fieldset {
+	border: 2px solid #254D2E;
+	font-size: inherit;
+	color: inherit;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+	padding: .3em;
+}
+
+textarea {
+	min-height: 10em;
+}
+
+/******************
+ Boutons
+******************/
+.bouton,
+input[type="submit"],
+input[type="reset"],
+button {
+    border: none;
+    color: white;
+    padding: 1em;
+    background-color: #599a68;
+}
+
+
+input[type="reset"] {
+    background-color: #CCC;
+}
+
+.bouton:hover ,
+input[type="submit"]:hover ,
+input[type="reset"]:hover ,
+button:hover  {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+
+#hotels {
+	float: left;
+	width: 50%;
+	background-color: #fff;
+	padding: 10px;
+	overflow: auto;
+}
+
+#reservation {
+	display: none;
+	float: left;
+	width: 50%;
+    padding: 20px;
+	background-color: #CAE6D1;
+}
+
+#message {
+	display: none;
+	width: 50%;
+    padding: 20px;
+	background-color: #4D1D22;
+	color: #FFF;
+	font-weight: bold;
+}
+
+#photo {
+	float: right;
+	width: 150px;
+	height: 200px;
+}
